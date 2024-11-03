@@ -4,7 +4,7 @@ from rich.table import Table
 
 table = Table(title="Ejemplo de tablas")
 
-
+hola = 2
 table.add_column("ID", justify="center", style="cyan", no_wrap=True)
 table.add_column("Nombre",style="magenta")
 table.add_column("Edad", justify="center", style="green")
